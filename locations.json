@@ -1,0 +1,258 @@
+{
+  "locations": {
+    "Salute": {
+      "Farmacia": [["amenity", "pharmacy"]],
+      "Ospedale": [["amenity", "hospital"]],
+      "Clinica": [["amenity", "clinic"]],
+      "Medico": [["amenity", "doctors"]],
+      "Dentista": [["amenity", "dentist"]],
+      "Veterinario": [["amenity", "veterinary"]],
+      "Donazione sangue": [["amenity", "blood_donation"]]
+    },
+
+    "Educazione": {
+      "Scuola": [["amenity", "school"]],
+      "Asilo": [["amenity", "kindergarten"]],
+      "Università": [["amenity", "university"]],
+      "Collegiale": [["amenity", "college"]],
+      "Biblioteca": [["amenity", "library"]],
+      "Scuola guida": [["amenity", "driving_school"]],
+      "Scuola lingue": [["amenity", "language_school"]],
+      "Scuola musica": [["amenity", "music_school"]]
+    },
+
+    "Amministrazione": {
+      "Municipio": [["amenity", "townhall"]],
+      "Polizia": [["amenity", "police"]],
+      "Vigili del fuoco": [["amenity", "fire_station"]],
+      "Tribunale": [["amenity", "courthouse"]],
+      "Ufficio postale": [["amenity", "post_office"]],
+      "Buca lettere": [["amenity", "post_box"]],
+      "Carcere": [["amenity", "prison"]]
+    },
+
+    "Comunità": {
+      "Centro comunità": [["amenity", "community_centre"]],
+      "Servizi sociali": [["amenity", "social_facility"]],
+      "Banca": [["amenity", "bank"]],
+      "Bancomat": [["amenity", "atm"]],
+      "Cambio valute": [["amenity", "bureau_de_change"]]
+    },
+
+    "Ristorazione": {
+      "Ristorante": [["amenity", "restaurant"]],
+      "Fast food": [["amenity", "fast_food"]],
+      "Caffetteria": [["amenity", "cafe"]],
+      "Bar": [["amenity", "bar"]],
+      "Pub": [["amenity", "pub"]],
+      "Food court": [["amenity", "food_court"]],
+      "Gelateria": [["amenity", "ice_cream"]]
+    },
+
+    "Spettacoli": {
+      "Cinema": [["amenity", "cinema"]],
+      "Teatro": [["amenity", "theatre"]],
+      "Discoteca": [["amenity", "nightclub"]],
+      "Casinò": [["amenity", "casino"]],
+      "Mercato": [["amenity", "marketplace"]]
+    },
+
+    "Trasporti": {
+      "Parcheggio": [["amenity", "parking"]],
+      "Ingresso parcheggio": [["amenity", "parking_entrance"]],
+      "Distributore benzina": [["amenity", "fuel"]],
+      "Colonnina ricarica": [["amenity", "charging_station"]],
+      "Autolavaggio": [["amenity", "car_wash"]],
+      "Autonoleggio": [["amenity", "car_rental"]],
+      "Car sharing": [["amenity", "car_sharing"]],
+      "Taxi": [["amenity", "taxi"]],
+      "Parcheggio bici": [["amenity", "bicycle_parking"]],
+      "Noleggio bici": [["amenity", "bicycle_rental"]],
+      "Fermata autobus": [["highway", "bus_stop"]],
+      "Stazione ferroviaria": [["railway", "station"]],
+      "Fermata tram": [["railway", "tram_stop"]],
+      "Entrata metro": [["railway", "subway_entrance"]]
+    },
+
+    "Religione": {
+      "Luogo di culto": [["amenity", "place_of_worship"]],
+      "Cimitero": [["amenity", "grave_yard"]]
+    },
+
+    "Verde/Natura": {
+      "Parco": [["leisure", "park"]],
+      "Giardino": [["leisure", "garden"]],
+      "Spiaggia": [["natural", "beach"]],
+      "Bosco": [["natural", "wood"]],
+      "Picco": [["natural", "peak"]],
+      "Scogliera": [["natural", "cliff"]],
+      "Vulcano": [["natural", "volcano"]],
+      "Zona umida": [["natural", "wetland"]],
+      "Lago": [["water", "lake"]],
+      "Stagno": [["water", "pond"]],
+      "Bacino": [["water", "reservoir"]],
+      "Fiume": [["waterway", "river"]],
+      "Canale": [["waterway", "canal"]],
+      "Torrente": [["waterway", "stream"]]
+    },
+
+    "Sport": {
+      "Palestra": [["leisure", "fitness_centre"]],
+      "Piscina": [["leisure", "swimming_pool"]],
+      "Centro sportivo": [["leisure", "sports_centre"]],
+      "Stadio": [["leisure", "stadium"]],
+      "Campo da gioco": [["leisure", "pitch"]],
+      "Pista": [["leisure", "track"]],
+      "Parco giochi": [["leisure", "playground"]],
+      "Marina": [["leisure", "marina"]],
+      "Spa": [["leisure", "spa"]],
+      "Parco cani": [["leisure", "dog_park"]],
+      "Spiaggia resort": [["leisure", "beach_resort"]],
+      "Parco acquatico": [["leisure", "water_park"]],
+      "Miniature golf": [["leisure", "miniature_golf"]],
+      "Pista di pattinaggio": [["leisure", "ice_rink"]],
+      "Arcade": [["leisure", "amusement_arcade"]],
+      "Escape room": [["leisure", "escape_game"]],
+      "Calcio": [["sport", "soccer"]],
+      "Basket": [["sport", "basketball"]],
+      "Tennis": [["sport", "tennis"]],
+      "Pallavolo": [["sport", "volleyball"]],
+      "Baseball": [["sport", "baseball"]],
+      "Rugby": [["sport", "rugby"]],
+      "Golf": [["sport", "golf"]],
+      "Nuoto": [["sport", "swimming"]],
+      "Pattinaggio": [["sport", "skating"]],
+      "Hockey": [["sport", "ice_hockey"]],
+      "Arrampicata": [["sport", "climbing"]],
+      "Fitness": [["sport", "fitness"]]
+    },
+
+    "Turismo": {
+      "Hotel": [["tourism", "hotel"]],
+      "Ostello": [["tourism", "hostel"]],
+      "Guest house": [["tourism", "guest_house"]],
+      "Motel": [["tourism", "motel"]],
+      "Appartamento": [["tourism", "apartment"]],
+      "Museo": [["tourism", "museum"]],
+      "Attrazione": [["tourism", "attraction"]],
+      "Opera d'arte": [["tourism", "artwork"]],
+      "Zoo": [["tourism", "zoo"]],
+      "Parco tematico": [["tourism", "theme_park"]],
+      "Campeggio": [["tourism", "camp_site"]],
+      "Parcheggio camper": [["tourism", "caravan_site"]],
+      "Belvedere": [["tourism", "viewpoint"]],
+      "Galleria d'arte": [["tourism", "gallery"]],
+      "Punto informazioni": [["tourism", "information"]],
+      "Area picnic": [["tourism", "picnic_site"]]
+    },
+
+    "Storico": {
+      "Monumento": [["historic", "monument"]],
+      "Castello": [["historic", "castle"]],
+      "Rovine": [["historic", "ruins"]],
+      "Memoriale": [["historic", "memorial"]],
+      "Sito archeologico": [["historic", "archaeological_site"]],
+      "Campo di battaglia": [["historic", "battlefield"]],
+      "Porta della città": [["historic", "city_gate"]],
+      "Forte": [["historic", "fort"]],
+      "Faro": [["historic", "lighthouse"]]
+    },
+
+    "Commercio": {
+      "Supermercato": [["shop", "supermarket"]],
+      "Negozio convenience": [["shop", "convenience"]],
+      "Shopping center": [["shop", "mall"]],
+      "Grande magazzino": [["shop", "department_store"]],
+      "Abbigliamento": [["shop", "clothes"]],
+      "Scarpe": [["shop", "shoes"]],
+      "Libri": [["shop", "books"]],
+      "Panetteria": [["shop", "bakery"]],
+      "Macelleria": [["shop", "butcher"]],
+      "Verdureria": [["shop", "greengrocer"]],
+      "Pescheria": [["shop", "seafood"]],
+      "Salumeria": [["shop", "deli"]],
+      "Gioielleria": [["shop", "jewelry"]],
+      "Elettronica": [["shop", "electronics"]],
+      "Informatica": [["shop", "computer"]],
+      "Telefonia": [["shop", "mobile_phone"]],
+      "Ferramenta": [["shop", "hardware"]],
+      "Fai da te": [["shop", "doityourself"]],
+      "Arredamento": [["shop", "furniture"]],
+      "Decorazione": [["shop", "interior_decoration"]],
+      "Cartoleria": [["shop", "stationery"]],
+      "Ottico": [["shop", "optician"]],
+      "Fioraio": [["shop", "florist"]],
+      "Articoli regalo": [["shop", "gift"]],
+      "Giocattoli": [["shop", "toys"]],
+      "Articoli sportivi": [["shop", "sports"]],
+      "Outdoor": [["shop", "outdoor"]],
+      "Biciclette": [["shop", "bicycle"]],
+      "Auto": [["shop", "car"]],
+      "Riparazione auto": [["shop", "car_repair"]],
+      "Pneumatici": [["shop", "tyres"]],
+      "Parrucchiere": [["shop", "hairdresser"]],
+      "Bellezza": [["shop", "beauty"]],
+      "Cosmetici": [["shop", "cosmetics"]],
+      "Pet shop": [["shop", "pet"]],
+      "Toelettatura animali": [["shop", "pet_grooming"]],
+      "Agenzia viaggi": [["shop", "travel_agency"]],
+      "Biglietteria": [["shop", "ticket"]],
+      "Enoteca": [["shop", "wine"]],
+      "Alcolici": [["shop", "alcohol"]],
+      "Tabaccheria": [["shop", "tobacco"]]
+    },
+
+    "Servizi": {
+      "Rifugio": [["amenity", "shelter"]],
+      "Panchina": [["amenity", "bench"]],
+      "Acqua potabile": [["amenity", "drinking_water"]],
+      "Fontana": [["amenity", "fountain"]],
+      "Toilette": [["amenity", "toilets"]],
+      "Bagni pubblici": [["amenity", "public_bath"]],
+      "Sauna": [["amenity", "sauna"]],
+      "Riciclaggio": [["amenity", "recycling"]],
+      "Cestino": [["amenity", "waste_basket"]],
+      "Raccolta rifiuti": [["amenity", "waste_disposal"]],
+      "Armadietto posta": [["amenity", "parcel_locker"]],
+      "Internet cafe": [["amenity", "internet_cafe"]],
+      "Centro conferenze": [["amenity", "conference_centre"]],
+      "Luogo evento": [["amenity", "events_venue"]]
+    },
+
+    "Territorio": {
+      "Cimitero": [["landuse", "cemetery"]],
+      "Industriale": [["landuse", "industrial"]],
+      "Commerciale": [["landuse", "commercial"]],
+      "Residenziale": [["landuse", "residential"]],
+      "Retail": [["landuse", "retail"]],
+      "Orti": [["landuse", "allotments"]]
+    },
+
+    "Architettura": {
+      "Chiesa": [["building", "church"]],
+      "Moschea": [["building", "mosque"]],
+      "Cattedrale": [["building", "cathedral"]],
+      "Cappella": [["building", "chapel"]],
+      "Casa": [["building", "house"]],
+      "Appartamento": [["building", "apartments"]],
+      "Villetta": [["building", "detached"]],
+      "Villini": [["building", "terrace"]],
+      "Industriale": [["building", "industrial"]],
+      "Commerciale": [["building", "commercial"]],
+      "Retail": [["building", "retail"]],
+      "Magazzino": [["building", "warehouse"]]
+    },
+
+    "Infrastrutture": {
+      "Aeroporto": [["aeroway", "aerodrome"]],
+      "Terminal aereo": [["aeroway", "terminal"]],
+      "Torre": [["man_made", "tower"]],
+      "Mulino a vento": [["man_made", "windmill"]],
+      "Faro": [["man_made", "lighthouse"]],
+      "Ponte": [["man_made", "bridge"]],
+      "Molo": [["man_made", "pier"]],
+      "Area di servizio": [["highway", "services"]],
+      "Area di riposo": [["highway", "rest_area"]]
+    }
+  }
+}
