@@ -897,5 +897,10 @@ def search_pairs(city, search_radius, pair_definitions):
 
     return Response(stream_with_context(generate()), mimetype='text/event-stream')
 
+import os
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Cerca la porta di Render, se non la trova usa la 5000
+    port = int(os.environ.get("PORT", 5000))
+    # Avvia l'app su 0.0.0.0 per essere visibile dall'esterno
+    app.run(host='0.0.0.0', port=port)
